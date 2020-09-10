@@ -11,4 +11,4 @@ docker export  MyWeb > MyWeb_Export.tar
 docker run --restart=always
 
 #如果已經啟動了則可以使用如下命令：
- docker update --restart=always CONTAINER_ID
+docker update --restart=always CONTAINER_ID
