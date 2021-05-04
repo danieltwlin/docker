@@ -22,3 +22,7 @@ docker run -d -P \
 
 # 以 -v 或 --mount 掛載的差別
 #  -v 會自動創建資料夾，--mount 會報錯
+
+# Docker  -p -v 
+# 宿主:容器
+
