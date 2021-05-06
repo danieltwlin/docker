@@ -1,0 +1,10 @@
+# 選擇node:alpine
+FROM ubuntu:16.04
+#copy 指定檔案及資料夾進container
+# copy 根目錄
+#COPY ./ ./
+# update
+RUN apt-get update && apt-get install --assume-yes apt-utils
+RUN apt-get install python2.7 -y
+# 安裝dependencies
+# 指定啟動container後執行命令
