@@ -1,0 +1,4 @@
+# Build Image 指令如下
+$ docker build -t my-image .
+
+# 預設檔名為 dockerfile
